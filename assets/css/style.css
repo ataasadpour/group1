@@ -148,7 +148,23 @@ a {
     transition: all 0.3s;
 }
 
-.header-menu ul li a:hover {
+.header-menu > ul > li > a:hover {
     color: #fff !important;
     background: #ff3a4b;
+}
+.header-menu > ul > li > ul {
+    position: absolute;
+    background-color: #fff;
+    width: 80%;
+    min-height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    top:200px;
+    display: flex;
+}
+
+.header-menu > ul > li > ul > li {
+    width: 25%;
+    font-size: 15px;
+    font-weight: 550px;
 }
