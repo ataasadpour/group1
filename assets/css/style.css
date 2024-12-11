@@ -8,6 +8,8 @@
 
 body {
     background-color: #eee;
+    width: 100%;
+    height: 100vh;
 }
 
 /* header top:Ata Asadpour */
@@ -306,4 +308,85 @@ a {
 
 .off-2 {
     margin-bottom: 30px;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+
+    h3 , h4{
+        color: #444;
+    }
+    p{
+        color: #444;
+    }
+
+    
+}
+.footer div {
+    margin-top: 15px;
+}
+.footer-about {
+    width: 25%;
+    margin: 10px 60px;
+    font-size: 20px;
+}
+
+.footer-a{
+    margin-top: 10px;
+    width: 20%;
+}
+
+.footer-a a {
+    width: 32%;
+    display: inline-block;
+    font-size: 50px;
+}
+.fab.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fab.fa-twitter-square {
+    color: #1da1f2;
+}
+
+.fab.fa-linkedin {
+    color: #0077b5;
+}
+
+.fab.fa-instagram-square {
+    color: #ff1c69;
+}
+
+.fab.fa-google-plus-square {
+    color: #ff422b;
+}
+
+.fab.fa-youtube-square {
+    color: #f00;
+}
+.footer-phone{
+    width: 20%;
+}
+.footer-phone h4{
+    margin: 20px 0;
+}
+
+.footer-namad {
+    width: 30%;
+}
+.footer-namad img {
+    margin: 20px 10px;
+}
+
+.footer-copyright p {
+	background-color: #fff;
+	justify-content: center;
+	display: flex;
+	padding: 10px 0;
 }
