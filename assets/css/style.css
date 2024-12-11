@@ -58,7 +58,6 @@ a {
 }
 
 .header-singup:hover {
-    box-shadow: 0 0 0 8px rgba(255, 58, 75 , 0.4);
     a{
         color: #000;
     }
@@ -226,4 +225,85 @@ a {
 	left: 0%;
 	border-radius: 20px;
 	height: 100%;
+}
+
+/* start right menu */
+
+/* start pishnahad */
+.right-menu {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.right-menu .pishnahad {
+    width:100%;
+    height: auto;
+    direction: rtl;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 25px;
+    
+}
+
+.right-menu .pishnahad h2 {
+    margin: 10px;
+    text-align: center;
+    color: #444;
+}
+.right-menu .pishnahad img {
+    width: 100%;
+    margin: 10px 0;
+}
+.right-menu .pishnahad h3 {
+    text-align: center;
+    color: #444;
+}
+.right-menu .pishnahad h4 {
+    text-align: center;
+    color: #ff3a4b;
+    margin: 10px 0;
+}
+
+.off img {
+    width: 100%;
+    border-radius: 10px;
+    margin: -5px 25px;
+}
+
+.last-right {
+    width:100%;
+    height: auto;
+    direction: rtl;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px 25px;
+
+}
+.last-right h2 {
+    margin: 10px;
+    text-align: center;
+    color: #444;
+    
+}
+
+.last-right-title {
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+}
+
+.last-right-title img{
+    width: 35%;
+}
+.last-right-title h4{
+    width: 65%;
+    margin-left: 11px;
+    margin-top: 8px !important;
+}
+.last-right-title-5 {
+    margin-bottom: 20px;
+}
+
+.off-2 {
+    margin-bottom: 30px;
 }
