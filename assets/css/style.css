@@ -132,7 +132,7 @@ a {
 .header-menu {
     height: 30%;
     width: 100%;
-    margin-right: 20px;
+    margin-right: 206px;
 
 }
 
@@ -155,7 +155,7 @@ a {
 .header-menu > ul > li > ul {
     position: absolute;
     background-color: #fff;
-    width: 80%;
+    width: 77%;
     min-height: 300px;
     border-radius: 20px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
