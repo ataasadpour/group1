@@ -93,7 +93,30 @@ a{
 /* header-cart */
 .header-cart {
     width: 20%;
-    
+    height: 100%;
+    width: auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #55e100;
+    border-radius: 30px;
+    color: #fff;
+    position: relative;
+    line-height: 23px;
+}
+.header-count {
+    background: #fff;
+    color: #41ad00;
+    width: 23px;
+    text-align: center;
+    line-height: 23px;
+    border-radius: 50%;
+    margin-right: 3px;
 }
 
+.header-icon i {
+	font-size: 29px;
+    
 
+}
