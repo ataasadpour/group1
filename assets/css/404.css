@@ -1,0 +1,33 @@
+.page404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.page404 .title404 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #444;
+    margin: 20px 0;
+}
+
+.page404 .back-to-main {
+    background: #bbb;
+    padding: 14px 25px;
+    border-radius: 16px;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.page404 .back-to-main:hover{
+    color: #fff;
+}
+
+.page404 img {
+    width: 65%;
+    margin: 35px 0;
+}
