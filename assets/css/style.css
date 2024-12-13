@@ -254,7 +254,7 @@ a {
 
 .menu-left {
     width: 65%;
-    height: auto;
+    height: 300px;
     background-color: #fff;
     margin: 25px 65px;
     border-radius: 10px;
@@ -486,29 +486,58 @@ a {
         border-radius: 30px;
 
     }
-    
+
     .header-search form input {
         width: 85%;
         padding: 10px;
         font-size: 15px;
     }
-    
+
     .header-search form button {
         font-size: 20px;
         width: 18%;
     }
-    
+
     .header-search form button i {
         width: 40px;
         height: 43px;
         font-size: 30px;
     }
 
-    .header-cart , .header-menu , .footer {
+    .header-cart, .header-menu, .footer {
         display: none;
     }
 
-     
+    /* menu */
+
+    .menu {
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: -8px !important;
+
+    }
+
+    /* left menu */
+
+    .menu-left {
+        width: 100%;
+        height: 1200px;
+        background-color: #fff;
+        margin: 14px 26px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* start right menu */
+
+    .right-menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
 
 
 }
