@@ -520,7 +520,7 @@ a {
     /* header drop done */
     .header-menu {
         height: 30%;
-        width: 100%;
+        width: 95%;
         margin-right: 5%;
     }
 
@@ -558,7 +558,7 @@ a {
     /* menu */
 
     .menu {
-        width: 90%;
+        width: 87%;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
