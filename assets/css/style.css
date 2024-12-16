@@ -326,13 +326,21 @@ a {
 }
 
 .kala-left-product2 {
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
 }
 
+.kala-left-product2:hover {
+	.left-img{
+	transform: scale(1.1);
+    
+}
+}
+
 .left-img {
-    width: 100%;
+	width: 88%;
+	margin: 11px 5px;
 }
 
 .kala-left-product2 {
