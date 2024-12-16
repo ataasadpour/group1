@@ -356,6 +356,7 @@ a {
 	position: absolute;
 	top: 118%;
 	transition: all 0.5s;
+    border: none;
 }
 .but-sabad:hover{
     color: #ff3a4b;
