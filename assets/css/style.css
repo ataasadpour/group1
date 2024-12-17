@@ -343,7 +343,7 @@ a {
         transition: all 0.5s;
     }
     .but-sabad{
-        top: 91%;
+        top: 78%;
     }
     
 }
@@ -357,7 +357,7 @@ a {
 	font-size: 15px;
 	color: #555;
 	position: absolute;
-	top: 115%;
+	top: 99%;
 	transition: all 0.5s;
     border: none;
 }
