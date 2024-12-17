@@ -305,12 +305,11 @@ a {
     margin-bottom: 4%;
     background-color: #fff;
     border-radius: 15px;
-
+    overflow: hidden;
 }
 
 .kala-father {
     width: 100%;
-
     display: flex;
     flex-direction: column;
 }
@@ -332,6 +331,12 @@ a {
     position: relative;
 }
 
+.kala-left-product2::after {
+	content: "";
+	height: 44px;
+	width: 72%;
+}
+
 .kala-left-product2:hover {
     .left-img {
         transform: scale(1.1);
@@ -339,8 +344,6 @@ a {
     }
     .but-sabad{
         top: 91%;
-
-        
     }
     
 }
@@ -354,7 +357,7 @@ a {
 	font-size: 15px;
 	color: #555;
 	position: absolute;
-	top: 118%;
+	top: 115%;
 	transition: all 0.5s;
     border: none;
 }
