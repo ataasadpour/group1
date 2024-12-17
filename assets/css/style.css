@@ -331,6 +331,10 @@ a {
     position: relative;
 }
 
+.kala-left-product2 h4 {
+    color: #ff3a4b;
+}
+
 .kala-left-product2::after {
 	content: "";
 	height: 44px;
@@ -730,5 +734,4 @@ a {
 }
 
 
-
-
+ 
