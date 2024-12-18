@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 780px;
+
+}
+
+.col {
+    max-width: 100%;
+}
+
+.account {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.account-title {
+    font-size: 20px;
+    color: black;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.form {
+    border: 1px solid #cfc8d8;
+    padding: 20px;
+    margin: 2em 0;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.form-p1 {
+    padding: 3px;
+    margin: 0 0 6px;
+}
+.redstar{
+    visibility: visible;
+    color: red;
+    font-weight: 700;
+    border: 0 !important;
+    text-decoration: none;
+    visibility: hidden;
+}
+.input-1 {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: normal;
+}
