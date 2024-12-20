@@ -72,3 +72,13 @@
 .div-contact-call {
     margin-right: 4%;
 }
+
+.input-submit input {
+    width: 18%;
+}
+
+.input-submit input:hover {
+    background-color: gray;
+    color: #fff;
+    transition: all 0.3s;
+}
