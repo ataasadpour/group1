@@ -292,7 +292,7 @@ a {
 
 .menu-left {
     width: 65%;
-    
+
     margin: 25px 65px;
     border-radius: 10px;
 }
@@ -301,7 +301,7 @@ a {
 
 .kala-left {
     width: 100%;
-    
+
     margin-bottom: 4%;
     background-color: #fff;
     border-radius: 15px;
@@ -336,9 +336,9 @@ a {
 }
 
 .kala-left-product2::after {
-	content: "";
-	height: 44px;
-	width: 72%;
+    content: "";
+    height: 44px;
+    width: 72%;
 }
 
 .kala-left-product2:hover {
@@ -346,26 +346,28 @@ a {
         transform: scale(1.1);
         transition: all 0.5s;
     }
-    .but-sabad{
+
+    .but-sabad {
         top: 78%;
     }
-    
+
 }
 
 /* but sabad  */
 
 .but-sabad {
-	background: #eee;
-	border-radius: 20px;
-	padding: 6px 5px;
-	font-size: 15px;
-	color: #555;
-	position: absolute;
-	top: 103%;
-	transition: all 0.5s;
+    background: #eee;
+    border-radius: 20px;
+    padding: 6px 5px;
+    font-size: 15px;
+    color: #555;
+    position: absolute;
+    top: 103%;
+    transition: all 0.5s;
     border: none;
 }
-.but-sabad:hover{
+
+.but-sabad:hover {
     color: #ff3a4b;
 }
 
@@ -750,13 +752,82 @@ a {
         margin: 4% 0;
     }
 
-    .footer ,.kala-father , .footer-copyright p, .header-logo, .header-menu-img img, .header-menu>ul>li::after {
+
+    /* footer */
+
+    .footer {
+        flex-direction: column;
+
+        h3, h4 {
+            color: #444;
+            margin-right: 7%;
+        }
+
+        p {
+            color: #444;
+            width: 79%;
+            margin-right: 7%;
+        }
+
+
+    }
+
+    .footer div {
+        margin-top: 18px;
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .footer-about {
+        width: 25%;
+        margin: 10px 60px;
+        font-size: 20px;
+    }
+
+    .footer-a a {
+        margin: 0%;
+    }
+
+    .footer-a a {
+        width: 25%;
+        display: inline-block;
+        font-size: 51px;
+        margin-right: 7%;
+    }
+
+    .fab.fa-facebook-square {
+        color: #3b5998;
+    }
+
+
+    .footer-phone {
+        width: 20%;
+    }
+
+    .footer-phone h4 {
+        margin: 21px 29px;
+    }
+
+    .footer-namad {
+        width: 30%;
+    }
+
+    .footer-namad img {
+        margin: 20px 12px;
+    }
+
+    .footer-copyright p {
+        background-color: #fff;
+        justify-content: center;
+        display: flex;
+        padding: 10px 14px;
+        align-items: center;
+    }
+
+    .kala-father, .header-logo, .header-menu-img img, .header-menu>ul>li::after {
         display: none;
     }
 
 
 
 }
-
-
- 
