@@ -831,3 +831,9 @@ a {
 
 
 }
+
+@media only screen and (min-width: 410px)  {
+    .kala-rispansive{
+        display: none;
+    }
+}
