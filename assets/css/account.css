@@ -4,22 +4,13 @@
     box-sizing: border-box;
 }
 
-.column {
-    display: grid;
-    grid-template-columns: 780px;
-
-}
-
-article {
+section {
     border: 0;
     filter: drop-shadow(3px 3px 6px gray);
     outline: 0;
+    height:850px ;
 }
 
-
-.col {
-    max-width: 100%;
-}
 
 .account {
     background-color: white;
@@ -72,3 +63,61 @@ label {
     margin: 0;
     border-radius: 2%;
 }
+.form-row{
+    padding: 3px;
+    margin: 0 0 6px;
+}
+.form-label{
+    display: inline-block;
+    line-height: 2;
+}
+.form-input{
+    background: #f9f9f9;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    font-weight: 300;
+    border-radius: 5px;
+}
+.form-submit{
+    color: black;
+    background: #e4dfdf;
+    padding: 0.365rem;
+   margin: 0.365rem;
+   border-radius: 10%;
+    float:left;
+    margin-left: 1em;
+    border: 0px;
+}
+.form-submit:hover {
+background: #c6bbbb;
+border-radius: 10%;
+}
+.a-password{
+    margin: 0.4rem;
+    color: red;
+    font-size: large;
+}
+.a-password:hover {
+color: #4139cc;
+}
+.b-g2{
+    filter: drop-shadow(10px 10px 10px gray);
+}
+
+[type="submit"]{
+    font-size: large;
+    color: black;
+    background: #e4dfdf;
+    padding: 0.365rem;
+   margin: 0.365rem;
+   border-radius: 10%;
+    float:right;
+    margin-left: 3rem;
+    border: 0px;
+
+}
+[type="submit"]:hover {
+    background: #c6bbbb;
+    border-radius: 10%;
+    }
