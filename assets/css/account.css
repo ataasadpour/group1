@@ -86,7 +86,7 @@ label {
     border-radius: 5px;
 }
 
-.form-submit {
+.submit-2 {
     color: black;
     background: #e4dfdf;
     padding: 0.365rem;
@@ -97,7 +97,7 @@ label {
     border: 0px;
 }
 
-.form-submit:hover {
+.submit-2:hover {
     background: #c6bbbb;
     border-radius: 10%;
 }
@@ -116,7 +116,7 @@ label {
     filter: drop-shadow(10px 10px 10px gray);
 }
 
-[type="submit"] {
+.submit-1 {
     font-size: large;
     color: black;
     background: #e4dfdf;
@@ -129,7 +129,7 @@ label {
 
 }
 
-[type="submit"]:hover {
+.submit-1:hover {
     background: #c6bbbb;
     border-radius: 10%;
 }

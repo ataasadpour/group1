@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    border-radius: 20px;
+    background-color: white;
+    width: 60vw;
+    height: 250vh;
+}
+
+.div-img {
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.parent-img {
+    display: flex;
+    border-radius: 20px;
+    margin: 0.365rem;
+}
+
+.img-1 {
+    display: inline;
+    border-radius: 20px;
+}
+
+.img-2 {
+    margin: 0.365rem;
+    filter: blur(2px);
+}
+
+.img-2:hover {
+    filter: blur(0);
+}
+
+.img-3 {
+    margin: 0.365rem;
+    filter: blur(2px);
+}
+
+.img-3:hover {
+    filter: blur(0);
+}
+
+.img-4 {
+    margin: 0.365rem;
+    filter: blur(2px);
+}
+
+.img-4:hover {
+    filter: blur(0);
+}
+
+.img-5 {
+    margin: 0.365rem;
+    filter: blur(2px);
+}
+
+.img-5:hover {
+    filter: blur(0);
+}
+
+.Phone-information {
+    float: left;
+    width: 50%;
+}
+
+.phone-model {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-color: #dedee3;
+    width: 26vw;
+    padding: 0.8rem;
+    margin: 10px 0 10px 10px;
+    border-radius: 20px;
+}
+
+.price {
+    color: #259125;
+}
+
+.li {
+    padding: 0.365rem;
+    color: #6b736b;
+}
+
+.b {
+    margin: 0.4rem;
+    padding: 0.4rem;
+}
+
+.select-1 {
+    background-color: white;
+    filter: drop-shadow(3px 3px 3px gray);
+    display: inline-block;
+    padding: 0.8em 2.5em;
+    margin: 0.4em 2.1em;
+    border: 0;
+
+}
+
+.select-2 {
+    background-color: white;
+    filter: drop-shadow(3px 3px 3px gray);
+    display: inline-block;
+    padding: 0.8em 2.5em;
+    margin: 0.4em 1.5em;
+    border: 0;
+}
+.submit{
+    font-size: large;
+    color: white;
+    display: inline-block;
+    border: 0;
+    background-color: #ef4242;
+    padding:0.8em 5em;
+    margin: 2rem;
+
+}
