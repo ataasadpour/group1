@@ -8,7 +8,9 @@ section {
     border: 0;
     filter: drop-shadow(3px 3px 6px gray);
     outline: 0;
-    height:850px ;
+    width: 60vw;
+    height: 100vh;
+
 }
 
 
@@ -21,6 +23,7 @@ section {
 
 .form {
     margin: 10px 10px 10px 10px;
+    width: 45vw;
 }
 
 .account-title {
@@ -63,15 +66,18 @@ label {
     margin: 0;
     border-radius: 2%;
 }
-.form-row{
+
+.form-row {
     padding: 3px;
     margin: 0 0 6px;
 }
-.form-label{
+
+.form-label {
     display: inline-block;
     line-height: 2;
 }
-.form-input{
+
+.form-input {
     background: #f9f9f9;
     border: none;
     padding: 10px;
@@ -79,45 +85,52 @@ label {
     font-weight: 300;
     border-radius: 5px;
 }
-.form-submit{
+
+.form-submit {
     color: black;
     background: #e4dfdf;
     padding: 0.365rem;
-   margin: 0.365rem;
-   border-radius: 10%;
-    float:left;
+    margin: 0.365rem;
+    border-radius: 10%;
+    float: left;
     margin-left: 1em;
     border: 0px;
 }
+
 .form-submit:hover {
-background: #c6bbbb;
-border-radius: 10%;
+    background: #c6bbbb;
+    border-radius: 10%;
 }
-.a-password{
+
+.a-password {
     margin: 0.4rem;
     color: red;
     font-size: large;
 }
+
 .a-password:hover {
-color: #4139cc;
+    color: #4139cc;
 }
-.b-g2{
+
+.b-g2 {
     filter: drop-shadow(10px 10px 10px gray);
 }
 
-[type="submit"]{
+[type="submit"] {
     font-size: large;
     color: black;
     background: #e4dfdf;
     padding: 0.365rem;
-   margin: 0.365rem;
-   border-radius: 10%;
-    float:right;
+    margin: 0.365rem;
+    border-radius: 10%;
+    float: right;
     margin-left: 3rem;
     border: 0px;
 
 }
+
 [type="submit"]:hover {
     background: #c6bbbb;
     border-radius: 10%;
-    }
+}
+
