@@ -8,7 +8,7 @@ section {
     border-radius: 20px;
     background-color: white;
     width: 60vw;
-    height: 250vh;
+    height: 130vh;
 }
 
 .div-img {
@@ -133,45 +133,3 @@ section {
 
 }
 
-.ul-end {
-    display: block;
-    background-color: #eee;
-    padding: 1rem;
-    border-radius: 20px;
-}
-
-.li-end-1 {
-    display: inline;
-    margin: 3rem;
-    border-radius: 20px;
-    padding: 1rem;
-    width: 10vw;
-}
-
-.li-end-2 {
-    display: inline;
-    margin: 3rem;
-    border-radius: 20px;
-    padding: 1rem;
-}
-
-
-.li-end-3 {
-    display: inline;
-    margin: 3rem;
-    border-radius: 20px;
-    padding: 1rem;
-}
-.li-end-1:active{
-   
-background-color: white ;
-
-}
-.li-end-2:active{
-background-color: white ;
-
-}
-.li-end-3:active{
-background-color: white ;
-
-}
