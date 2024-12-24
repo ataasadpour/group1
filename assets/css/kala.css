@@ -67,7 +67,9 @@ section {
     float: left;
     width: 50%;
 }
-
+.clr:hover{
+    color: red;
+}
 .phone-model {
     display: flex;
     align-items: flex-start;
@@ -111,13 +113,65 @@ section {
     margin: 0.4em 1.5em;
     border: 0;
 }
-.submit{
+[type="number"]{
+    border: none;
+    background-color: #eee;
+    width: 4vw;
+    height: 6vh;
+    margin: 0.2rem;
+    padding: 0.6rem ;
+    border-radius:10px;
+}
+.submit {
     font-size: large;
     color: white;
     display: inline-block;
     border: 0;
     background-color: #ef4242;
-    padding:0.8em 5em;
-    margin: 2rem;
+    padding: 0.6em 3em;
+    margin: 2rem 0 ;
+
+}
+
+.ul-end {
+    display: block;
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.li-end-1 {
+    display: inline;
+    margin: 3rem;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 10vw;
+}
+
+.li-end-2 {
+    display: inline;
+    margin: 3rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+
+.li-end-3 {
+    display: inline;
+    margin: 3rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.li-end-1:active{
+   
+background-color: white ;
+
+}
+.li-end-2:active{
+background-color: white ;
+
+}
+.li-end-3:active{
+background-color: white ;
 
 }
