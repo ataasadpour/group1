@@ -222,3 +222,36 @@ section {
     }
  
 }
+@media only screen and (max-width:400px) {
+   section {
+    background-color: white;
+        width: 120vw;
+        height: 350vh;
+    }
+    .img-1{
+       width: 50%;
+    }
+  .parent-img{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    width:90% ;
+    height: 7vh;
+  }
+  .img-5{
+    display: none;
+  }
+    .Phone-information{
+        width: 100%;
+        height: 120vh;
+    }
+    .phone-model{
+        width: 100%;
+        
+    }
+    .number{
+        width: 11%;
+        height: 4vh;
+    }
+ 
+}
