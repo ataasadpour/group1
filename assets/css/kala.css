@@ -150,7 +150,7 @@ section {
         height: 5%;
     }
 }
-@media only screen and (max-width: 1539px)and (min-width:700px) {
+/*@media only screen and (max-width: 1539px)and (min-width:700px) {
    section {
     background-color: white;
         width: 120vw;
@@ -184,7 +184,7 @@ section {
         height: 4vh;
     }
  
-}
+}*/
 @media only screen and (max-width: 771px)and (min-width:300px) {
    section {
     background-color: white;
@@ -228,8 +228,9 @@ section {
         width: 120vw;
         height: 350vh;
     }
-    .img-1{
-       width: 50%;
+    .img-1 img{
+       width: 215%;
+       margin: 10% 0;
     }
   .parent-img{
     padding: 0;
