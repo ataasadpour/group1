@@ -714,6 +714,7 @@ a {
         background-color: #fff;
         margin: 27px 26px 0;
         display: flex;
+        height: auto;
         justify-content: center;
     }
 
